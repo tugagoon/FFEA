@@ -1,0 +1,232 @@
+@font-face{
+  font-family: 'Polaris-Book';
+  src: url('./css/Polaris-Book.ttf');
+}
+
+@font-face{
+  font-family: 'Polaris-Bold';
+  src: url('./css/PolarisCondensed-Bold.ttf');
+}
+
+.conteudo{
+  margin-top: 50px;
+}
+
+.category-navbar{
+  background-color: black;
+  position: relative;;
+  height: 40px;
+  padding-top: 10px;
+}
+
+.category-navbar .title{
+  color: white;
+  text-decoration: white;
+  font-family: 'Polaris-Bold';
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
+.conteudo{
+  margin-top: 50px;
+
+}
+a {
+  color:#fff;
+}
+a:hover{
+  color:#aaa;
+}
+.navbar-header{
+  height: 50px;
+}
+
+.logo-auction{
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 18px;
+  font-family: 'Polaris-Book';
+}
+
+.img-thumbnail{
+padding: 20px;
+height: 300px;
+border: 0;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.other-photos{
+  margin-top: 20px;
+}
+
+.fa{
+  color: black;
+}
+
+.other-photos .img-thumbnail{
+  height: 100px;
+  border: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.item{
+  font-family: 'Polaris-Book';
+  padding: 50 15px;
+}
+
+.item-brand{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.banner-item{
+  font-family: 'Polaris-Book';
+  padding-bottom: 40px;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.feature-auction{
+  padding-top: 0px;
+}
+
+#banner-timer{
+  text-align: center;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  color: #fff;
+}
+
+.banner-btn{
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 5px;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  border-radius: 50px;
+-moz-border-radius: 50px;
+-webkit-border-radius: 50px;
+border: 2px solid #FFFFFF;
+}
+
+
+.item-model{
+  font-size: 20px;
+  text-transform: lowercase;
+
+}
+
+.item-price{
+  font-family: 'Polaris-Book';
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.item-description{
+  width: 700px;
+  margin-bottom: 50px;
+}
+
+.item-description>size{
+
+}
+
+.item-description>textual-description{
+
+}
+
+.item-description>share{
+
+}
+
+#banner{
+  background-image: url("img/fundo_catalogo.png");
+  border: 2px solid black;
+  padding: 40px;
+  margin-top: 50px;
+  background-repeat: no-repeat; 
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+}
+
+
+.featured-image{
+  border: 1px solid black;
+}
+
+.share{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+.share-btn-group{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.share-btn-group>.share-btn{
+  margin-left: 20px;
+  color: black;
+}
+
+.share-btn-group>.share-btn:hover{
+  margin-left: 20px;
+  color: black;
+}
+
+
+
+.item-details{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.auction-details{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid black;
+}
+
+.share-title{
+  font-family: 'Polaris-Bold';
+}
+
+.countdown{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.auction-bid{
+  text-align: center;
+}
+
+.bid-form{
+  width: 100%;
+  text-align: center;
+  /*display: table;
+  margin-left: auto;
+  margin-right: auto;*/
+}
+
+.auction-featured{
+  font-size: 40px;
+  font-family: 'Polaris-Bold';
+}
